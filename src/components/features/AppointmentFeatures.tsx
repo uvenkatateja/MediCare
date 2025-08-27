@@ -27,7 +27,7 @@ export default function AppointmentFeatures() {
                             <div className="absolute inset-0 [background:radial-gradient(125%_125%_at_50%_0%,transparent_40%,var(--color-blue-600),var(--color-white)_100%)]"></div>
                             <div className="aspect-[4/3] sm:aspect-[76/59] p-1 px-3 sm:px-6">
                                 <img
-                                    src="/src/assets/smart.png"
+                                    src="/images/smart.png"
                                     alt="appointment scheduling interface"
                                     width={1207}
                                     height={929}
@@ -50,7 +50,7 @@ export default function AppointmentFeatures() {
                                 <div className="absolute -inset-3 sm:-inset-6 [background:radial-gradient(50%_50%_at_75%_50%,transparent,var(--color-background)_100%)]"></div>
                                 <div className="aspect-[4/3] sm:aspect-[76/59] border">
                                     <img
-                                        src="/src/assets/real.png"
+                                        src="/images/real.png"
                                         alt="patient queue dashboard"
                                         width={1207}
                                         height={929}
