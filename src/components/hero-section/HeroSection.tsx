@@ -6,6 +6,7 @@ import { AnimatedGroup } from '@/components/motion-primitives/animated-group'
 import { FloatingNav } from '@/components/ui/floating-nav'
 import { DesktopScrollNav } from '@/components/ui/desktop-scroll-nav'
 import { HeroHeader } from "./HeroHeader"
+import FeatureShowcase from "./FeatureShowcase"
 import AppointmentFeatures from '@/components/features/AppointmentFeatures'
 import ClinicInsights from '@/components/features/ClinicInsights'
 import BillingFeatures from '@/components/features/BillingFeatures'
@@ -142,6 +143,9 @@ export default function HeroSection() {
 
                     </div>
                 </section>
+
+                {/* Feature Showcase Section */}
+                <FeatureShowcase />
 
                 <div id="appointments">
                     <AppointmentFeatures />
